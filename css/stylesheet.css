@@ -28,7 +28,7 @@ img {
 
 nav ul {
   margin: 0 auto;
-  width: 800px;
+  width: 850px;
   list-style-type: none;
   padding-left: 0;
 }
@@ -70,6 +70,7 @@ a:hover {
   margin-bottom: 10px;
   padding: 10px;
   border: 2px solid #F9CDAD;
+    
 }
 
 #workex {
@@ -104,6 +105,7 @@ a:hover {
   margin-bottom: 10px;
   padding: 10px;
   border: 2px solid #F9CDAD;
+  text-decoration: none;
 }
 
 
@@ -113,6 +115,7 @@ a:hover {
   margin-bottom: 10px;
   padding: 10px;
   border: 2px solid #F9CDAD;
+  text-decoration: none;
 }
 
 
