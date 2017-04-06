@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #83AF9B;
+  width: 960px;
+  margin: 0 auto;
+      
+}
+
+h1, h2  {
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: auto;    
+  border: 1px solid #F9CDAD;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+nav ul {
+  margin: 0 auto;
+  width: 800px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+nav li:last-child {
+    margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+    
+
+a:link {
+  color:#FE4365;
+      
+}
+
+a:visited {
+  color:#FC9D9A;
+}
+
+a:active {
+  color:hotpink;
+}
+
+a:hover {
+  color: #A8E6CE;
+}
+
+#about {
+  background-color: floralwhite;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #F9CDAD;
+}
+
+#workex {
+  background-color: floralwhite;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #F9CDAD;
+}
+
+#workex a {
+  text-decoration: none;
+}
+  
+
+#edu {
+  background-color: floralwhite;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #F9CDAD;
+}
+
+#edu a {
+  text-decoration: none;
+}
+
+
+#qualif {
+  background-color: floralwhite;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #F9CDAD;
+}
+
+
+#interests {
+  background-color: floralwhite;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid #F9CDAD;
+}
+
+
+footer {
+  background-color: floralwhite;
+  color: #83AF9B;
+  opacity: 50%;
+  border: 2px solid #F9CDAD;
+  padding: 10px;
+}
+
+    
+
