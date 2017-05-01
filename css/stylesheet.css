@@ -16,7 +16,7 @@ h1, h2  {
 
 h1 {
   text-align: center;
-  font-size: 80px;
+  font-size: 70px;
 }
 
 img {
@@ -107,6 +107,10 @@ a:hover {
   padding: 10px;
   border: 2px solid #F9CDAD;
  
+}
+
+#qualif a {
+  text-decoration: none;
 }
 
 

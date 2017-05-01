@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+
+
+body {
+  font-family: 'Cabin', sans-serif;
+  color: #222;
+  width: 960px;
+  margin: 0 auto;
+      
+}
+
+h1, h2  {
+  font-family: 'Amatic SC', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+#container {
+  width: 960px;
+  margin: 0 auto;
+  }
+
+nav ul {
+  margin: 0 auto;
+  width: 850px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 80px;
+}
+
+nav li:last-child {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a:link {
+  color:coral;
+      
+}
+
+a:visited {
+  color:turquoise;
+}
+
+a:active {
+  color:hotpink;
+}
+
+a:hover {
+  color:orange;
+}
+
+    
+
+img {
+  border: 1px solid #ccc;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  float: left;
+}
+
+img:nth-child(3n+3){
+  margin-right: 0;
+}
+
