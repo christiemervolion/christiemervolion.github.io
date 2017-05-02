@@ -4,6 +4,8 @@
     <meta charset="utf-8"  /> 
     <title>Christie Mervolion Final Project</title> 
     <link href="css/stylesheet2.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -13,7 +15,7 @@
       <nav>
           <ul>
           <li><a href="http://christiemervolion.github.io/index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="http://christiemervolion.me/about.html">About</a></li>
           <li>Recent Work</li>
           <li><a href="http://christiemervolion.me/resume.html">Resume</a></li>
           </ul>
@@ -24,17 +26,30 @@
     
 
 <main>
-   <section id="img">
-       <img src="images/boats.jpg" alt="boats">
-       <img src="images/guy.jpg" alt="singer">
-       <img src="images/trees.jpg"alt="palmtrees">
-       <img src="images/300dominoes1.jpg" alt="dominopark">
-       <img src="images/300grandma1.jpg" alt="dominopark">
-       <img src="images/300grandma2.jpg" alt="abuela">
-    </section> 
+   <div class="your-class">
+       <div><img src="images/boats.jpg" alt="boats"></div>
+       <div><img src="images/guy.jpg" alt="singer"></div>
+       <div><img src="images/trees.jpg"alt="palmtrees"></div>
+       <div><img src="images/300dominoes1.jpg" alt="dominopark"></div>
+       <div><img src="images/300grandma1.jpg" alt="dominopark"></div>
+       <div><img src="images/300grandma2.jpg" alt="abuela"></div>
+    </div> 
 </main>    
-    
-</div>   
+
+</div>    
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.your-class').slick({
+          autoplay: true,
+          arrows: true
+      });
+    });
+  </script>
+
 </body>  
     
 
