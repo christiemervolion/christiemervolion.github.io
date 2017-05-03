@@ -21,7 +21,7 @@ h1, h2  {
 h1 {
   text-align: center;
   font-size: 60px;
-  color:darkcyan;
+  color:rgb(0,139,139);
 }
 
 
@@ -42,12 +42,13 @@ nav ul {
   padding-left: 0;
   font-family: 'Amatic SC', sans-serif;
   font-size: 25px;
+  color:rgb(0,139,139);
 }
 
 nav li {
   display: inline-block;
   margin-right: 80px;
-  color:darkcyan;
+  
 }
 
 nav li:last-child {
