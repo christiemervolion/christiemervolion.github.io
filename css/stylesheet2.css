@@ -74,11 +74,13 @@ a:hover {
 }
 
     
-img {
+#panorama {
   border: 1px solid #ccc;
   margin-right: 15px;
   margin-bottom: 15px;
-  float: left;
+/*  float: left;*/
+  right: 290px;
+    position: absolute;
 }
 
 img:nth-child(3n+3){
