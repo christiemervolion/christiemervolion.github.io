@@ -61,12 +61,8 @@ color:rgb(0,139,139);
 }
 
 a:link {
-  color:coral;
-      
-}
-
-a:visited {
   color:rgb(0,139,139);
+      
 }
 
 a:active {
