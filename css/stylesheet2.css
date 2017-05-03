@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Cabin', sans-serif;
-  color:darkcyan;
+/*  color:darkcyan;*/
   width: 960px;
   margin: 0 auto;
   background-color: rgb(255,235,205);
@@ -42,13 +42,12 @@ nav ul {
   padding-left: 0;
   font-family: 'Amatic SC', sans-serif;
   font-size: 25px;
-  color:rgb(0,139,139);
+  
 }
 
 nav li {
   display: inline-block;
   margin-right: 80px;
-  
 }
 
 nav li:last-child {
@@ -56,8 +55,9 @@ nav li:last-child {
     padding-bottom: 20px;
 }
 
-nav a {
-  text-decoration: none;
+a {
+text-decoration: none;
+color:rgb(0,139,139);
 }
 
 a:link {
@@ -66,7 +66,7 @@ a:link {
 }
 
 a:visited {
-  color:turquoise;
+  color:rgb(0,139,139);
 }
 
 a:active {
