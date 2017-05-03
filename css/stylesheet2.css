@@ -87,3 +87,10 @@ img:nth-child(3n+3){
   margin-right: 0;
 }
 
+li{
+    color:rgb(0,139,139);
+}
+
+h3{
+ color:rgb(0,139,139);   
+}
