@@ -1,0 +1,33 @@
+* {
+  background: transparent !important;
+  color:black;
+  font-family: serif;
+  font-size: 11pt;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-size: 16pt;
+}
+
+main, article {
+  position: relative;
+}
+
+#left-col,
+#right-col {
+  max-width: 47%;
+  float: left;
+}
+
+#left-col {
+  margin-right: 6%;
+}
+
+img{
+    display: none;
+}
