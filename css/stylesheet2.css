@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Cabin', sans-serif;
-  color: #222;
+  color:darkcyan;
   width: 960px;
   margin: 0 auto;
   background-color: rgb(255,235,205);
@@ -21,7 +21,7 @@ h1, h2  {
 h1 {
   text-align: center;
   font-size: 60px;
-  color:#7FFFD4;
+  color:darkcyan;
 }
 
 
@@ -31,7 +31,7 @@ h1 {
   }
 
 p {
-  color:#7FFFD4;
+  color:darkcyan;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -47,6 +47,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 80px;
+  color:darkcyan;
 }
 
 nav li:last-child {
